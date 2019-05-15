@@ -34,7 +34,6 @@ def processFaces(x):
 
 #Ensures it's running on GPU
 print(len(backend.tensorflow_backend._get_available_gpus()))
-print(keras.__version__) 
 datasetPath = 'E:/new downloads/Comp project - final year/Emotion detection\challenges-in-representation-learning-facial-expression-recognition-challenge/fer2013/fer2013.csv' #custom path to data
 faces, emotions = loadDataset()
 faces = processFaces(faces) #Convert to expected scale to learn from
