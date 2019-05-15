@@ -61,7 +61,7 @@ model.compile(optimizer=adams, loss='categorical_crossentropy', metrics=['accura
 epochs = 50 #Set epochs
 
  #Train dataset
-model.fit(xTrain,yTrain,validation_split=0.0,validation_data=(xTest,yTest), shuffle=True, epochs=epochs, batch_size=20, verbose=1)
+history = model.fit(xTrain,yTrain,validation_split=0.0,validation_data=(xTest,yTest), shuffle=True, epochs=epochs, batch_size=20, verbose=1)
 model.save('emotion_model.h5') #Save dataset
 plt.plot(history.history['acc']) #Display plots
 plt.plot(history.history['val_acc'])
