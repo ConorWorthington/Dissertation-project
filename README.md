@@ -5,3 +5,11 @@ The main folder Emotion Transformer Suite contains both the python source and a 
 The other 3 folders contain training data and applications which can be utilised to train models which the system relies upon
 The project identifies input faces, classifies them and subsequently uses novel computer vision techniques to perform emotional transformations
 
+The main bulk of the code is accessible at:
+https://github.com/ConorWorthington/Undergrad-Dissertation-project/blob/master/EmotionTransformationSuite/main.py
+
+A video demo is available at:
+https://www.youtube.com/watch?v=4inEahRSWQ4&feature=youtu.be&ab_channel=battlebirtie
+
+The write up is available at:
+https://github.com/ConorWorthington/Undergrad-Dissertation-project/blob/master/EmotionTransformationSuite/Final-Comp-Sci-Project-Report-Finished.pdf
